@@ -1,0 +1,24 @@
+[package]
+name = "sycamore-rstml"
+version = "0.9.1-0.1.0"
+edition = "2021"
+description = "rstml style view macro for sycamore"
+authors = ["DavidOnTop <me@davidon.top>"]
+readme = "README.md"
+documentation = "https://docs.rs/sycamore-rstml"
+license = "MIT"
+repository = "https://github.com/davidon-top/sycamore-rstml.git"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.89"
+proc-macro2-diagnostics = "0.10.1"
+quote = "1.0.37"
+rstml = "0.12.0"
+syn = { version = "2.0.87", features = ["full"] }
+sycamore-view-parser = { git = "https://github.com/sycamore-rs/sycamore.git" }
+
+[dev-dependencies]
+sycamore = "0.9.1"
