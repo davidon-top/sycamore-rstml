@@ -18,7 +18,7 @@ proc-macro2-diagnostics = "0.10.1"
 quote = "1.0.37"
 rstml = "0.12.0"
 syn = { version = "2.0.87", features = ["full"] }
-sycamore-view-parser = { git = "https://github.com/sycamore-rs/sycamore.git" }
+sycamore-view-parser = { git = "https://github.com/sycamore-rs/sycamore.git", version = "0.9.1" }
 
 [dev-dependencies]
 sycamore = "0.9.1"
