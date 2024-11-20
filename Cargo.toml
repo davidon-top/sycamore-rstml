@@ -1,6 +1,6 @@
 [package]
 name = "sycamore-rstml"
-version = "0.9.1-0.1.0"
+version = "0.1.0+0.9.1"
 edition = "2021"
 description = "rstml style view macro for sycamore"
 authors = ["DavidOnTop <me@davidon.top>"]
